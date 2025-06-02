@@ -1,0 +1,44 @@
+# Laravel + Tailwind CSS Installation Guide
+
+## 1. Install Laravel 9+
+
+If you don't have Composer installed, install it first: https://getcomposer.org/download/
+
+Then run:
+composer create-project laravel/laravel todo-app
+
+cd todo-app
+
+## 2. Install Tailwind CSS
+
+Install Tailwind and its dependencies:
+npm install -D tailwindcss postcss autoprefixer
+
+Initialize Tailwind config:
+npm install -D tailwindcss
+
+## 3. Configure Tailwind
+
+Edit `tailwind.config.js`:
+
+## 4. Generate Key
+
+php artisan key:generate
+
+## 5. Jalankan Server Development
+
+php artisan serve
+
+You Will See :
+Starting Laravel development server: http://127.0.0.1:8000
+
+## 6. Konfigurasi Environment
+
+Edit file .env untuk pengaturan database, email, dsb. Contoh:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=root
+DB_PASSWORD=
